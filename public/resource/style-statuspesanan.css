@@ -1,0 +1,350 @@
+@import url("https://fonts.googleapis.com/css2?family=Palanquin+Dark&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;1,100&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@500&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.logo {
+  cursor: pointer;
+  width: 10%;
+}
+
+h2 {
+  font-family: "Palanquin Dark", sans-serif;
+}
+
+li,
+ul,
+a,
+svg {
+  font-family: "Palanquin Dark", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  color: white;
+  text-decoration: none;
+}
+
+header {
+  padding: 30px 5%;
+  height: 150px;
+  background-color: #ffffff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2);
+}
+header span {
+  font-family: 'Roboto', sans-serif;
+  font-size: 15px;
+}
+.header-container button {
+  margin-top: 10px;
+  padding: 10px;
+  background-color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.header-container svg {
+  padding: 13px;
+  margin: 20px;
+  margin-top: 27px;
+  fill: #7800ff;
+  cursor: pointer;
+}
+.header-container svg:hover{
+  box-shadow: 0px 0px 4px black;
+  transition: ease-in 0.3s;
+  border-radius: 10px;
+  background-color: #7700ff;
+  fill: white;
+}
+.nav-link li {
+  display: inline-block;
+  padding: 20px;
+}
+
+.nav-link li a {
+  font-family: 'Gabarito', sans-serif;
+  color: #7700ff;
+}
+
+.nav-link li a:hover {
+  opacity: 80%;
+}
+.search-container {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+  padding: 10px;
+  text-align: center;
+}
+
+.search-input {
+  margin: 10px;
+  border: 1px solid #b0b0b0;
+  border-radius: 10px;
+  padding: 10px;
+  background-color: #fff;
+  color: #000000;
+  font-size: 16px;
+  width: 1000px;
+  height: 35px;
+}
+
+.search-input:focus {
+  outline: none;
+  /* Hilangkan outline bawaan browser */
+}
+
+.search-button {
+  text-align: bottom;
+  border-radius: 10px;
+  background-color: #7800ff;
+  fill: white;
+  cursor: pointer;
+  width: 60px;
+  height: 35px;
+}
+
+.search-button svg {
+  margin-top: 10px;
+}
+
+.search-button:hover {
+  transition: ease-out 0.2s;
+  background-color: white;
+  fill: #7800ff;
+}
+
+button:hover {
+  opacity: 50%;
+}
+
+.search-button:hover {
+  background-color: white;
+}
+button:hover{
+  opacity: 50%;
+}
+.search-button:hover {
+  background-color: white;
+}
+
+.container {
+  box-shadow: 2px 2px 7px rgba(0, 0, 0, 0.2);
+  grid-gap: 10px;
+  border-radius: 3px;
+  width: 90%;
+  max-width: 100%;
+  height: auto;
+  overflow: auto;
+  margin: 0 auto;
+  margin-top: -25px;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.container h1 {
+  color: black;
+}
+
+.col {
+  margin-left: -5px;
+  margin-top: 10px;
+  padding: 5px;
+  width: 150px;
+}
+
+.col-text {
+  font-family: "Roboto", sans-serif;
+  font-size: 15px;
+  margin-top: -10px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.col-text-bold {
+  font-family: "Ubuntu", sans-serif;
+  font-size: 13px;
+  font-weight: bold;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.text-body-secondary {
+  font-family: "Roboto", sans-serif;
+  font-size: small;
+  margin-top: 10px;
+  margin-bottom: -7px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.col button {
+  background-color: #7800ff;
+  width: 30px;
+  position: absolute;
+  top: 5px;
+  right: 5px;
+}
+
+.col button svg {
+  transform: translate(-7px, -2px);
+}
+
+.col button:hover svg {
+  fill: #7800ff;
+}
+
+.sidebar {
+  box-shadow: 2px 2px 7px rgba(0, 0, 0, 0.2);
+  border-radius: 2px;
+  width: 10%;
+  font-family: 'Ubuntu', sans-serif;
+  position: absolute;
+  margin-left: 50px;
+}
+
+.sidebar h5 {
+  padding-left: 10px;
+  padding-top: 10px;
+  font-weight: 600;
+  font-size: 14px;
+}
+
+.sidebar div {
+  padding: 5px;
+  margin-top: -10px;
+}
+
+.sidebar div h5 {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 600;
+  font-size: 13px;
+}
+
+.checkbox {
+  margin-left: 10px;
+  vertical-align: middle;
+  /* Menyelaraskan vertikal dengan elemen lainnya */
+  margin-right: 5px;
+  /* Menambahkan jarak ke kanan checkbox */
+  width: 15px;
+  height: 15px;
+}
+
+.sidebar span {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-size: 13;
+}
+
+.sidebar .sidebar-features {
+  position: relative;
+}
+
+.sidebar .dropdown {
+  position: absolute;
+  right: 10px;
+  margin-top: -30px;
+}
+
+.sidebar .dropdown i {
+  color: #7800ff;
+}
+
+footer{
+  margin-top: 50px;
+  opacity: 50%;
+  justify-content: center;
+  text-align: center;
+}
+.table th:first-child,
+.table td:first-child {
+  width: 50px;
+}
+.table {
+  margin-top: 10px;
+  width: 100%;
+  table-layout: fixed;
+}
+.table .col {
+  background-color: #7800ff;
+  color: white;
+}
+.table th, .table td {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  min-width: 150px; /* Adjust as needed */
+  max-width: 150px; /* Maintain a fixed width */
+  padding: 8px; /* Add padding for better spacing */
+  text-align: center; /* Center-align the content */
+}
+.table th, .table td{
+  justify-content: center;
+  text-align: center;
+}
+
+.table .col:first-child{
+  border-top-left-radius: 5px;
+}
+.table .col:last-child{
+  border-top-right-radius: 5px;
+}
+.table select {
+  width: 100%; /* Lebar dropdown mengisi seluruh lebar sel */
+  padding: 5px; /* Berikan padding agar tampilan lebih baik */
+  font-size: 16px; /* Ukuran font yang sesuai */
+}
+.header-dropdown {
+  text-align: end;
+  position: relative;
+}
+.btn-dropdown {
+  display: flex; /* Menggunakan flexbox */
+  align-items: center; /* Mengarahkan isi vertikal ke tengah */
+  justify-content: center; /* Mengarahkan isi horizontal ke tengah */
+  margin-left: auto; /* Tombol akan pindah ke sebelah kanan */
+  margin-top: 20px;
+  margin-right: 20px;
+  border-radius: 7px; /* Untuk membuat tombol menjadi lingkaran */
+  background-color: #7700ff;
+  fill: white;
+  border: none;
+  box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
+  width: 30px;
+  height: 30px;
+}
+
+.btn-dropdown:hover{
+  transition: ease-in 0.3s;
+  background-color: white;
+  fill: #7700ff;
+}
+#dropdown-content {
+  display: none;
+}
+.menu-dropdown {
+  /* background-color: #7700ff; */
+  text-align: center;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2);
+  height: 70px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}

@@ -1,0 +1,43 @@
+@import url("https://fonts.googleapis.com/css2?family=Palanquin+Dark&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;1,100&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@500&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gabarito:wght@600&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+.logo {
+  cursor: pointer;
+  width: 10%;
+}
+
+h2 {
+  font-family: "Palanquin Dark", sans-serif;
+}
+
+li,
+ul,
+a {
+  color: black;
+  font-family: "Palanquin Dark", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  text-decoration: none;
+}
+header {
+  padding: 30px 5%;
+  height: 150px;
+  background-color: #ffffff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2);
+}
+
+.container{
+  margin-top: 100px;
+  width: 1000px;
+}

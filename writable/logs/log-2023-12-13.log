@@ -1,0 +1,21 @@
+CRITICAL - 2023-12-13 13:59:02 --> App\Controllers\Penjual::index(): Return value must be of type string, none returned
+in APPPATH\Controllers\Penjual.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Penjual->index()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Penjual))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\myproject\\public\\index.php')
+CRITICAL - 2023-12-13 13:59:19 --> App\Controllers\Penjual::index(): Return value must be of type string, none returned
+in APPPATH\Controllers\Penjual.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Penjual->index()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Penjual))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\myproject\\public\\index.php')
+CRITICAL - 2023-12-13 13:59:46 --> App\Controllers\Penjual::index(): Return value must be of type string, none returned
+in APPPATH\Controllers\Penjual.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Penjual->index()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Penjual))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\myproject\\public\\index.php')

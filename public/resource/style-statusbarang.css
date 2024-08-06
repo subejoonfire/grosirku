@@ -1,0 +1,267 @@
+@import url("https://fonts.googleapis.com/css2?family=Palanquin+Dark&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;1,100&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,500;1,100&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@500&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.logo {
+  cursor: pointer;
+  width: 10%;
+}
+
+h2 {
+  font-family: "Palanquin Dark", sans-serif;
+}
+
+li,
+ul,
+a,
+svg {
+  font-family: "Palanquin Dark", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  color: white;
+  text-decoration: none;
+}
+
+header {
+  padding: 30px 5%;
+  height: 150px;
+  background-color: #ffffff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2);
+}
+
+
+header span {
+  font-family: 'Roboto', sans-serif;
+  font-size: 15px;
+}
+.header-container button {
+  margin-top: 10px;
+  padding: 10px;
+  background-color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.header-container svg {
+  padding: 13px;
+  margin: 20px;
+  margin-top: 27px;
+  fill: #7800ff;
+  cursor: pointer;
+}
+.header-container svg:hover{
+  box-shadow: 0px 0px 4px black;
+  transition: ease-in 0.3s;
+  border-radius: 10px;
+  background-color: #7700ff;
+  fill: white;
+}
+.nav-link li {
+  display: inline-block;
+  padding: 20px;
+}
+
+.nav-link li a {
+  font-family: 'Gabarito', sans-serif;
+  color: #7700ff;
+}
+
+.nav-link li a:hover {
+  opacity: 80%;
+}
+.search-container {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+  padding: 10px;
+  text-align: center;
+}
+
+.search-input {
+  margin: 10px;
+  border: 1px solid #b0b0b0;
+  border-radius: 10px;
+  padding: 10px;
+  background-color: #fff;
+  color: #000000;
+  font-size: 16px;
+  width: 1000px;
+  height: 35px;
+}
+
+.search-input:focus {
+  outline: none;
+  /* Hilangkan outline bawaan browser */
+}
+
+.search-button {
+  text-align: bottom;
+  border-radius: 10px;
+  background-color: #7800ff;
+  fill: white;
+  cursor: pointer;
+  width: 60px;
+  height: 35px;
+}
+
+.search-button svg {
+  margin-top: 10px;
+}
+
+.search-button:hover {
+  transition: ease-out 0.2s;
+  background-color: white;
+  fill: #7800ff;
+}
+
+.filter-table{
+  margin-top: 10px;
+}
+.filter-table h5{
+  font-family: 'Poppins', sans-serif;
+  font-weight: bold;
+  font-size: 17px;
+}
+.filter-table select{
+  margin-top: 5px;
+  margin-bottom: 5px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 15px;
+  font-weight: 500px;
+  width: 200px;
+  height: 30px;
+  border: 1.5px solid #6a6969;
+  /* border-radius: 5px; */
+}
+.search-container button {
+  border-radius: 5px;
+  background-color: #7800ff;
+  cursor: pointer;
+  width: 50px;
+  height: 25px;
+}
+
+button:hover{
+  opacity: 50%;
+}
+.search-button:hover {
+  background-color: white;
+}
+
+.container {
+  padding: 20px;
+  box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.2);
+  grid-gap: 10px;
+  border-radius: 3px;
+  width: 90%;
+  max-width: 100%;
+  height: auto;
+  overflow: auto;
+  margin: 0 auto;
+  margin-top: -25px;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.container h1 {
+  color: black;
+}
+footer{
+  margin-top: 50px;
+  opacity: 50%;
+  justify-content: center;
+  text-align: center;
+}
+.table th:first-child,
+.table td:first-child {
+  width: 50px;
+}
+.table {
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  margin-top: 10px;
+  width: 100%;
+  table-layout: fixed;
+}
+.table .col {
+  background-color: #7500ff;
+  color: white;
+}
+.table .col:first-child{
+  border-top-left-radius: 5px;
+}
+.table .col:last-child{
+  border-top-right-radius: 5px;
+}
+.table th, .table td {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  min-width: 150px; /* Adjust as needed */
+  max-width: 150px; /* Maintain a fixed width */
+  padding: 8px; /* Add padding for better spacing */
+  text-align: center; /* Center-align the content */
+}
+.table th, .table td{
+  justify-content: center;
+  text-align: center;
+}
+.table select {
+  width: 100%;
+  justify-content: center;
+  padding: 5px; /* Berikan padding agar tampilan lebih baik */
+  font-size: 16px; /* Ukuran font yang sesuai */
+}
+.header-dropdown {
+  text-align: end;
+  position: relative;
+}
+.btn-dropdown {
+  display: flex; /* Menggunakan flexbox */
+  align-items: center; /* Mengarahkan isi vertikal ke tengah */
+  justify-content: center; /* Mengarahkan isi horizontal ke tengah */
+  margin-left: auto; /* Tombol akan pindah ke sebelah kanan */
+  margin-top: 20px;
+  margin-right: 20px;
+  border-radius: 7px; /* Untuk membuat tombol menjadi lingkaran */
+  background-color: #7700ff;
+  fill: white;
+  border: none;
+  box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
+  width: 30px;
+  height: 30px;
+}
+
+.btn-dropdown:hover{
+  transition: ease-in 0.3s;
+  background-color: white;
+  fill: #7700ff;
+}
+#dropdown-content {
+  display: none;
+}
+.menu-dropdown {
+  /* background-color: #7700ff; */
+  text-align: center;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2);
+  height: 70px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}

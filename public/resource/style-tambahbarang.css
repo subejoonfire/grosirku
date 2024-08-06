@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Onest:wght@100;200;300;400;500;600;700;800&family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600&display=swap');
+
+.container {
+    display: flex;
+}
+
+.body-container {
+    margin-top: -50px;
+    padding: 50px;
+    border-radius: 3px;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.2);
+    flex: 1;
+    height: 1000px;
+}
+
+.body-container .header-container {
+    text-align: center;
+    display: flex;
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.1);
+    border-radius: 5;
+}
+
+.body-container .header-container h2 a {
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 400;
+    font-size: 17;
+    margin: 20px
+}
+
+.body-container .header-container a {
+    color: black;
+}
+
+.body-container .content-container {
+    margin: none;
+    margin-left: 0px;
+}
+
+.body-container .content-container .header-container {
+    justify-content: left;
+    box-shadow: none;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.body-container .content-container .header-container .add-product-container a {
+    font-family: 'Gabarito', sans-serif;
+    font-size: 14;
+    padding: 7;
+    padding-left: 40;
+    padding-right: 40;
+    color: white;
+    background-color: #7800ff;
+    border-radius: 5px;
+}
+
+.body-container .content-container .header-container h2 {
+    font-family: 'Calibri', sans-serif;
+    font-weight: 600;
+    font-size: 25;
+}
+
+.body-container .content-container .add-foods-container {
+    padding: 20px;
+}
+
+.body-container .content-container .add-content-container {
+    font-family: 'Calibri', sans-serif;
+    font-size: 30;
+    font-weight: 200px;
+    margin-top: 20;
+}
+
+.body-container .content-container .add-content-container table td {
+    padding: 15px;
+    width: 180px;
+}
+
+.body-container .content-container .add-content-container table input {
+    width: 900px;
+    height: 25;
+}
+
+.body-container .content-container .add-content-container table textarea {
+    width: 900px;
+    height: 100px;
+}
+
+.body-container .content-container .add-content-container table select {
+    width: 900px;
+    height: 30px;
+    border: 1px solid rgb(111, 111, 111);
+    border-radius: 5px;
+}
+
+.body-container .content-container .add-content-container table button {
+    width: 130px;
+    height: 30px;
+    border: none;
+    background-color: #7800ff;
+    color: white;
+    border-radius: 5px;
+}

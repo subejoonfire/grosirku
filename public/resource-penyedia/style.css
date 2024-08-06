@@ -1,0 +1,254 @@
+@import url('https://fonts.googleapis.com/css2?family=Onest:wght@100;200;300;400;500;600;700;800&family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600&display=swap');
+
+/* Add the following CSS for header-right */
+li,
+ul,
+a {
+    text-decoration: none;
+}
+
+header .header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    height: 25px;
+}
+
+header .header-container .header-left {
+    display: flex;
+    align-items: center;
+}
+
+header .header-container .header-left img {
+    margin-top: -7.5px;
+    width: 30%;
+}
+
+
+header .header-container .header-left .header-content .header-location {
+    font-family: 'Onest', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    color: #4a4a4a;
+    margin-left: -300px;
+}
+
+header .header-container .header-right {
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+    /* Push it to the right */
+}
+
+header .header-container .header-right a {
+    margin-right: 15px;
+}
+
+header .header-container .header-right .penyedia-name {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 12px;
+    background-color: white;
+    height: 30px;
+    width: 100px;
+    border-radius: 13px;
+    border: 1px solid #7e7e7e;
+}
+
+.container {
+    background-color: #f2f2f2;
+    display: flex;
+    align-items: flex-start;
+    /* Untuk menghindari sidebar menyesuaikan tinggi */
+    padding: 20px;
+}
+
+.body-container {
+    border-radius: 3px;
+    background-color: white;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.2);
+    flex: 1;
+    /* Ini akan mengisi sisa ruang yang tersedia di container */
+    height: 1000px;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Onest:wght@100;200;300;400;500;600;700;800&family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600&display=swap');
+
+/* Add the following CSS for header-right */
+li,
+ul,
+a {
+    text-decoration: none;
+}
+
+header .header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    height: 25px;
+}
+
+header .header-container .header-left {
+    display: flex;
+    align-items: center;
+}
+
+header .header-container .header-left img {
+    margin-top: -7.5px;
+    width: 30%;
+}
+
+
+header .header-container .header-left .header-content .header-location {
+    font-family: 'Onest', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    color: #4a4a4a;
+    margin-left: -300px;
+}
+
+header .header-container .header-right {
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+    /* Push it to the right */
+}
+
+header .header-container .header-right a {
+    margin-right: 15px;
+}
+
+header .header-container .header-right .penyedia-name {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 12px;
+    background-color: white;
+    height: 30px;
+    width: 100px;
+    border-radius: 13px;
+    border: 1px solid #7e7e7e;
+}
+
+.container {
+    background-color: #f2f2f2;
+    display: flex;
+    align-items: flex-start;
+    /* Untuk menghindari sidebar menyesuaikan tinggi */
+    padding: 20px;
+}
+
+.body-container {
+    border-radius: 3px;
+    background-color: white;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.2);
+    flex: 1;
+    /* Ini akan mengisi sisa ruang yang tersedia di container */
+    height: 1000px;
+}
+
+.body-container .header-container {
+    text-align: center;
+    display: flex;
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.1);
+    border-radius: 5;
+}
+
+.body-container .header-container h2 a {
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 400;
+    font-size: 17;
+    margin: 20px
+}
+
+.body-container .header-container a {
+    color: black;
+}
+
+.body-container .content-container {
+    margin: none;
+    margin-left: 25px;
+}
+
+.body-container .content-container .header-container {
+    justify-content: left;
+    box-shadow: none;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.body-container .content-container .header-container .add-product-container a {
+    font-family: 'Gabarito', sans-serif;
+    font-size: 14;
+    padding: 7;
+    padding-left: 40;
+    padding-right: 40;
+    color: white;
+    background-color: #7800ff;
+    border-radius: 5px;
+}
+
+.body-container .content-container .header-container h2 {
+    font-family: 'Calibri', sans-serif;
+    font-weight: 600;
+    font-size: 25;
+}
+
+.body-container .content-container .products-container {
+    margin-top: -30;
+    padding: 50;
+}
+
+.body-container .content-container .products-container .product {
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1), 0px 1px 3px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    padding: 20;
+    display: flex;
+}
+
+.body-container .content-container .products-container .product img {
+    max-width: 300px;
+    max-height: 200px;
+}
+
+.body-container .content-container .products-container .product .product-element {
+    margin-left: 20;
+}
+
+.body-container .content-container .products-container .product .product-element {
+    display: grid;
+}
+
+.body-container .content-container .products-container .product .product-element h1 {
+    font-family: 'Gabarito', sans-serif;
+}
+
+.body-container .content-container .products-container .product .product-element span {
+    font-family: 'Calibri', sans-serif;
+    font-weight: 500;
+    font-size: 17;
+}
+
+
+.body-container .content-container .products-container .product .product-element p {
+    font-family: 'Rubik', sans-serif;
+    font-weight: 400;
+    font-size: 15;
+}
+
+.body-container .content-container .products-container .product .product-element p {
+    font-family: 'Rubik', sans-serif;
+    font-weight: 400;
+    font-size: 15;
+}
+
+.body-container .content-container .products-container .product .product-action {
+    top: 0;
+    margin-left: auto;
+    display: flex;
+}
+.body-container .content-container .products-container .product .product-action a {
+    padding: 10px;
+}

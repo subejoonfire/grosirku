@@ -1,0 +1,374 @@
+@import url("https://fonts.googleapis.com/css2?family=Palanquin+Dark&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;1,100&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@500&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gabarito:wght@600&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.logo {
+  cursor: pointer;
+  width: 10%;
+}
+
+h2 {
+  font-family: "Palanquin Dark", sans-serif;
+}
+
+li,
+ul,
+a {
+  font-family: "Palanquin Dark", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  text-decoration: none;
+}
+
+.body-container {
+  display: flex;
+  /* Menggunakan flexbox untuk menyusun container dan sidebar secara horizontal */
+  justify-content: flex-end;
+  /* Menyusun container dan sidebar di sebelah kanan */
+  align-items: flex-start;
+  /* Menyusun elemen-elemen ke bagian atas */
+}
+
+header {
+  padding: 30px 5%;
+  height: 150px;
+  background-color: #ffffff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2);
+}
+
+header span {
+  font-family: 'Roboto', sans-serif;
+  font-size: 15px;
+}
+
+.header-container button {
+  margin-top: 10px;
+  padding: 10px;
+  background-color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.header-container svg {
+  padding: 13px;
+  margin: 20px;
+  margin-top: 27px;
+  fill: #7800ff;
+  cursor: pointer;
+}
+
+.header-container svg:hover {
+  box-shadow: 0px 0px 4px black;
+  transition: ease-in 0.3s;
+  border-radius: 10px;
+  background-color: #7700ff;
+  fill: white;
+}
+
+.search-container {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+  padding: 10px;
+  text-align: center;
+}
+
+.search-input {
+  margin: 10px;
+  border: 1px solid #b0b0b0;
+  border-radius: 10px;
+  padding: 10px;
+  background-color: #fff;
+  color: #000000;
+  font-size: 16px;
+  width: 1000px;
+  height: 35px;
+}
+
+.search-input:focus {
+  outline: none;
+  /* Hilangkan outline bawaan browser */
+}
+
+.search-button {
+  text-align: bottom;
+  border-radius: 10px;
+  background-color: #7800ff;
+  fill: white;
+  cursor: pointer;
+  width: 60px;
+  height: 35px;
+}
+
+.search-button svg {
+  margin-top: 10px;
+}
+
+.search-button:hover {
+  transition: ease-out 0.2s;
+  background-color: white;
+  fill: #7800ff;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(140px, 2fr));
+  grid-gap: 10px;
+  border-radius: 3px;
+  width: 70%;
+  max-width: 80%;
+  height: auto;
+  margin: 0 auto;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.container h1 {
+  color: black;
+}
+
+.col {
+  margin-left: -5px;
+  margin-top: 10px;
+  padding: 5px;
+  width: 150px;
+}
+
+.col-text {
+  font-family: "Roboto", sans-serif;
+  font-size: 15px;
+  margin-top: -10px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.col-text-bold {
+  font-family: "Ubuntu", sans-serif;
+  color: #141414;
+  font-size: 13px;
+  font-weight: bold;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.text-body-secondary {
+  font-family: "Roboto", sans-serif;
+  font-size: small;
+  margin-top: 10px;
+  margin-bottom: -7px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.col button {
+  background-color: #7800ff;
+  width: 30px;
+  position: absolute;
+  top: 5px;
+  right: 5px;
+}
+
+.col button svg {
+  transform: translate(-7px, -2px);
+}
+
+.col button:hover svg {
+  fill: #7800ff;
+}
+
+.sidebar {
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+  font-family: 'Gabarito', sans-serif;
+  padding: 20px;
+  width: 300px;
+  margin-left: 50px;
+  margin-top: 15px;
+  color: black;
+}
+
+.sidebar button {
+  border: none;
+  background-color: white;
+}
+
+.sidebar .sidebar-title h5 {
+  padding-top: 20px;
+  padding-right: 20px;
+  font-weight: 600;
+  font-size: 14px;
+  padding-bottom: 10px;
+}
+
+.sidebar div {
+  padding: 7px;
+  margin-top: -10px;
+}
+
+.sidebar div h5 {
+  font-weight: bold;
+  font-size: 14px;
+}
+
+#harga-content-dropdown,
+#kategori-content-dropdown {
+  margin-top: 5px;
+}
+
+#harga-content-dropdown span,
+#kategori- .checkbox {
+  margin-left: 10px;
+  vertical-align: middle;
+  /* Menyelaraskan vertikal dengan elemen lainnya */
+  margin-right: 5px;
+  /* Menambahkan jarak ke kanan checkbox */
+  width: 15px;
+  height: 15px;
+}
+
+.sidebar span {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-size: 13;
+}
+
+.sidebar .sidebar-features {
+  position: relative;
+}
+
+.sidebar .dropdown {
+  position: absolute;
+  right: 10px;
+  margin-top: -35px;
+}
+
+.sidebar .dropdown i {
+  color: black;
+}
+
+footer {
+  margin-top: 50px;
+  opacity: 50%;
+  justify-content: center;
+  text-align: center;
+}
+
+.header-dropdown {
+  text-align: end;
+  position: relative;
+}
+
+.btn-dropdown {
+  display: flex;
+  /* Menggunakan flexbox */
+  align-items: center;
+  /* Mengarahkan isi vertikal ke tengah */
+  justify-content: center;
+  /* Mengarahkan isi horizontal ke tengah */
+  margin-left: auto;
+  /* Tombol akan pindah ke sebelah kanan */
+  margin-top: 20px;
+  margin-right: 20px;
+  border-radius: 7px;
+  /* Untuk membuat tombol menjadi lingkaran */
+  background-color: #7700ff;
+  fill: white;
+  border: none;
+  box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
+  width: 30px;
+  height: 30px;
+}
+
+.btn-dropdown:hover {
+  transition: ease-in 0.3s;
+  background-color: white;
+  fill: #7700ff;
+}
+
+#dropdown-content {
+  display: none;
+}
+
+.menu-dropdown {
+  /* background-color: #7700ff; */
+  text-align: center;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2);
+  height: 70px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.nav-link li {
+  display: inline-block;
+  padding: 20px;
+}
+
+.nav-link li a {
+  font-family: 'Gabarito', sans-serif;
+  color: #7700ff;
+}
+
+.nav-link li a:hover {
+  opacity: 80%;
+}
+
+.container .col:hover {
+  transition: ease-in 0.1s;
+  transform: scale(1.03);
+}
+
+.containers {
+  display: flex;
+  width: 100%;
+  margin: 20px;
+  margin-left: 50px;
+  margin-right: 50px;
+  height: auto;
+}
+.table-container{
+  width: 100%;
+  position: relative;
+}
+table{
+  position: absolute;
+  text-align: center;
+  margin: 20px;
+  margin-left: 100px;
+  width: 1300px;
+  right: 0;
+}
+table tbody .aksi a{
+  margin: 5px;
+}
+table thead{
+  height: 40px;
+  background-color: #7800ff;
+  color: white;
+}
+table td{
+  padding: 10px;
+  background-color: #f1f1f1;
+}
+.leftside-container{
+  width: 500px;
+}
